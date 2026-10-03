@@ -1,0 +1,1226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sawariya Seth Cleaning Services | Ahmedabad Deep Cleaning Experts</title>
+<meta name="description" content="Professional deep cleaning for homes, flats, bungalows & offices in Ahmedabad. Budget-friendly, 100% satisfaction guarantee. Book your cleaning shoot today.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600;700;800&family=Inter:wght@400;500;600;700;800&family=Noto+Sans+Gujarati:wght@500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --navy:#0B2545;
+    --navy-deep:#071A33;
+    --gold:#F5A623;
+    --gold-light:#FFD580;
+    --vermilion:#FF7A1A;
+    --vermilion-dark:#E0610A;
+    --ivory:#FFF8EC;
+    --ivory-2:#FFF1DA;
+    --ink:#10202E;
+    --green:#1B7A4D;
+    --green-light:#E8F5EC;
+    --white:#FFFFFF;
+    --line:rgba(11,37,69,0.12);
+    --shadow:0 18px 40px -12px rgba(11,37,69,0.25);
+  }
+  *{box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{
+    margin:0;
+    font-family:'Inter',sans-serif;
+    background:var(--ivory);
+    color:var(--ink);
+    -webkit-font-smoothing:antialiased;
+  }
+  h1,h2,h3,.display{
+    font-family:'Baloo 2','Noto Sans Gujarati',sans-serif;
+    margin:0;
+    line-height:1.08;
+    color:var(--navy);
+  }
+  a{color:inherit;text-decoration:none;}
+  img{max-width:100%;display:block;}
+  .wrap{max-width:1180px;margin:0 auto;padding:0 24px;}
+  .eyebrow{
+    display:inline-flex;
+    align-items:center;
+    gap:8px;
+    font-weight:700;
+    font-size:13px;
+    letter-spacing:0.06em;
+    text-transform:uppercase;
+    color:var(--vermilion-dark);
+  }
+  .eyebrow::before{content:"✦";color:var(--gold);font-size:14px;}
+
+  /* ---------- focus visibility ---------- */
+  a:focus-visible, button:focus-visible{
+    outline:3px solid var(--vermilion);
+    outline-offset:3px;
+    border-radius:6px;
+  }
+
+  @media (prefers-reduced-motion: reduce){
+    *{animation-duration:0.01ms !important; animation-iteration-count:1 !important; transition-duration:0.01ms !important; scroll-behavior:auto !important;}
+  }
+
+  /* ---------- top bar ---------- */
+  .topbar{
+    background:var(--navy-deep);
+    color:#cfe0f0;
+    font-size:13.5px;
+    padding:8px 0;
+  }
+  .topbar .wrap{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;}
+  .topbar-links{display:flex;gap:18px;flex-wrap:wrap;}
+  .topbar-links a{display:inline-flex;align-items:center;gap:6px;opacity:0.92;transition:opacity .2s;}
+  .topbar-links a:hover{opacity:1;color:var(--gold-light);}
+  .topbar-badge{color:var(--gold-light);font-weight:600;}
+
+  /* ---------- header / nav ---------- */
+  header.site{
+    position:sticky;top:0;z-index:50;
+    background:rgba(255,248,236,0.92);
+    backdrop-filter:blur(10px);
+    border-bottom:1px solid var(--line);
+  }
+  nav.wrap{
+    display:flex;align-items:center;justify-content:space-between;
+    padding:14px 24px;
+  }
+  .brand{display:flex;align-items:center;gap:10px;font-weight:800;}
+  .brand-mark{
+    width:42px;height:42px;border-radius:11px;
+    background:linear-gradient(145deg,var(--navy),var(--navy-deep));
+    display:flex;align-items:center;justify-content:center;
+    box-shadow:var(--shadow);
+    flex-shrink:0;
+  }
+  .brand-text{font-family:'Baloo 2',sans-serif;font-size:18px;color:var(--navy);line-height:1.15;}
+  .brand-text span{display:block;font-size:11px;font-family:'Inter';font-weight:700;letter-spacing:.08em;color:var(--vermilion-dark);text-transform:uppercase;}
+  .nav-links{display:flex;gap:28px;font-weight:600;font-size:15px;}
+  .nav-links a{position:relative;padding:4px 0;color:var(--navy);}
+  .nav-links a::after{content:"";position:absolute;left:0;bottom:-2px;width:0;height:2px;background:var(--vermilion);transition:width .25s;}
+  .nav-links a:hover::after{width:100%;}
+  .nav-cta{
+    background:var(--vermilion);
+    color:#fff;
+    font-weight:700;
+    padding:11px 22px;
+    border-radius:999px;
+    box-shadow:0 8px 18px -6px rgba(255,122,26,0.55);
+    transition:transform .2s, box-shadow .2s, background .2s;
+    border:none;
+    cursor:pointer;
+    font-size:14.5px;
+    white-space:nowrap;
+  }
+  .nav-cta:hover{transform:translateY(-2px);background:var(--vermilion-dark);box-shadow:0 12px 22px -6px rgba(255,122,26,0.6);}
+  .burger{display:none;background:none;border:none;cursor:pointer;padding:6px;}
+  .burger span{display:block;width:24px;height:2.5px;background:var(--navy);margin:5px 0;border-radius:2px;}
+
+  /* ---------- hero ---------- */
+  .hero{
+    position:relative;
+    overflow:hidden;
+    background:radial-gradient(120% 100% at 80% -10%, #FFE3B0 0%, var(--ivory) 45%, var(--ivory) 100%);
+    padding:64px 0 0;
+  }
+  .garland-row{
+    position:absolute;top:0;left:0;right:0;height:10px;
+    background:repeating-linear-gradient(90deg, var(--vermilion) 0 18px, var(--gold) 18px 36px);
+    opacity:.9;
+  }
+  .hero-grid{
+    display:grid;
+    grid-template-columns:1.05fr 0.95fr;
+    gap:48px;
+    align-items:center;
+    padding-bottom:56px;
+  }
+  .hero-copy .eyebrow{margin-bottom:18px;}
+  .hero-copy h1{
+    font-size:clamp(34px, 4.6vw, 56px);
+    letter-spacing:-0.01em;
+  }
+  .hero-copy h1 em{
+    font-style:normal;
+    color:var(--vermilion);
+    position:relative;
+  }
+  .hero-copy .sub{
+    font-size:18px;
+    color:#3a4a5c;
+    margin-top:18px;
+    max-width:520px;
+    line-height:1.6;
+  }
+  .hero-actions{display:flex;gap:14px;margin-top:32px;flex-wrap:wrap;align-items:center;}
+  .btn-primary{
+    background:var(--vermilion);
+    color:#fff;
+    font-weight:800;
+    font-size:16.5px;
+    padding:17px 34px;
+    border-radius:999px;
+    box-shadow:0 14px 28px -8px rgba(255,122,26,0.55);
+    border:none;
+    cursor:pointer;
+    display:inline-flex;align-items:center;gap:10px;
+    transition:transform .2s, box-shadow .2s;
+  }
+  .btn-primary:hover{transform:translateY(-3px) scale(1.02);box-shadow:0 18px 32px -8px rgba(255,122,26,0.6);}
+  .btn-primary .pulse-dot{
+    width:9px;height:9px;border-radius:50%;background:#fff;
+    box-shadow:0 0 0 0 rgba(255,255,255,.7);
+    animation:pulse 1.8s infinite;
+  }
+  @keyframes pulse{
+    0%{box-shadow:0 0 0 0 rgba(255,255,255,.55);}
+    70%{box-shadow:0 0 0 9px rgba(255,255,255,0);}
+    100%{box-shadow:0 0 0 0 rgba(255,255,255,0);}
+  }
+  .btn-secondary{
+    background:var(--navy);
+    color:#fff;
+    font-weight:700;
+    font-size:15.5px;
+    padding:16px 28px;
+    border-radius:999px;
+    display:inline-flex;align-items:center;gap:10px;
+    transition:background .2s, transform .2s;
+  }
+  .btn-secondary:hover{background:var(--navy-deep);transform:translateY(-2px);}
+  .hero-trust{
+    display:flex;gap:26px;margin-top:34px;flex-wrap:wrap;
+  }
+  .trust-item{display:flex;align-items:center;gap:10px;font-weight:700;font-size:14px;color:var(--navy);}
+  .trust-item .ico{
+    width:34px;height:34px;border-radius:50%;
+    background:var(--green-light);color:var(--green);
+    display:flex;align-items:center;justify-content:center;
+    flex-shrink:0;font-size:16px;
+  }
+
+  .hero-visual{position:relative;}
+  .hero-photo-frame{
+    position:relative;
+    border-radius:28px;
+    overflow:hidden;
+    box-shadow:var(--shadow);
+    border:6px solid #fff;
+    transform:rotate(1.2deg);
+  }
+  .hero-photo-frame img{width:100%;height:560px;object-fit:cover;object-position:75% 30%;}
+  .badge-float{
+    position:absolute;
+    background:#fff;
+    border-radius:18px;
+    box-shadow:var(--shadow);
+    padding:14px 18px;
+    display:flex;align-items:center;gap:12px;
+    font-weight:800;
+    color:var(--navy);
+    font-size:14px;
+  }
+  .badge-guarantee{
+    top:-22px;left:-26px;
+    border:3px solid var(--gold);
+  }
+  .badge-guarantee .ico{
+    width:40px;height:40px;border-radius:50%;
+    background:linear-gradient(145deg,var(--gold-light),var(--gold));
+    display:flex;align-items:center;justify-content:center;font-size:18px;
+  }
+  .badge-rating{
+    bottom:26px;right:-22px;
+    color:var(--gold);
+    letter-spacing:1px;
+  }
+  .badge-rating .num{color:var(--navy);margin-left:6px;font-size:13px;}
+
+  /* ---------- marquee strip ---------- */
+  .marquee-strip{
+    background:var(--navy);
+    color:var(--ivory);
+    overflow:hidden;
+    padding:13px 0;
+    white-space:nowrap;
+  }
+  .marquee-track{display:inline-flex;animation:scroll 28s linear infinite;}
+  .marquee-track span{
+    display:inline-flex;align-items:center;gap:10px;
+    font-weight:700;font-size:14.5px;letter-spacing:.02em;
+    padding:0 28px;
+    border-right:1px solid rgba(255,255,255,0.18);
+  }
+  .marquee-track span::before{content:"✦";color:var(--gold);}
+  @keyframes scroll{from{transform:translateX(0);}to{transform:translateX(-50%);}}
+
+  /* ---------- section shared ---------- */
+  section{padding:88px 0;}
+  .section-head{max-width:680px;margin:0 auto 52px;text-align:center;}
+  .section-head h2{font-size:clamp(28px,3.4vw,42px);margin-top:14px;}
+  .section-head p{color:#48586a;font-size:17px;margin-top:14px;line-height:1.65;}
+  .section-tinted{background:linear-gradient(180deg,#fff 0%, var(--ivory-2) 100%);}
+
+  /* ---------- service area checklist (signature) ---------- */
+  .deep-clean{
+    background:var(--navy);
+    border-radius:32px;
+    padding:56px clamp(20px,5vw,64px);
+    position:relative;
+    overflow:hidden;
+  }
+  .deep-clean::before{
+    content:"";
+    position:absolute;inset:0;
+    background:radial-gradient(circle at 85% 10%, rgba(245,166,35,0.18), transparent 55%);
+  }
+  .dc-head{position:relative;color:#fff;text-align:center;max-width:680px;margin:0 auto 44px;}
+  .dc-head .eyebrow{color:var(--gold-light);}
+  .dc-head h2{color:#fff;font-size:clamp(26px,3.2vw,38px);margin-top:12px;}
+  .dc-head p{color:#cfdcec;margin-top:12px;font-size:16px;}
+
+  .room-tabs{
+    position:relative;
+    display:flex;flex-wrap:wrap;
+    gap:10px;
+    justify-content:center;
+    margin-bottom:38px;
+  }
+  .room-tab{
+    background:rgba(255,255,255,0.07);
+    border:1.5px solid rgba(255,255,255,0.18);
+    color:#dce6f0;
+    font-weight:700;
+    font-size:14px;
+    padding:11px 20px;
+    border-radius:999px;
+    cursor:pointer;
+    transition:all .25s;
+    display:flex;align-items:center;gap:8px;
+  }
+  .room-tab:hover{border-color:var(--gold);color:#fff;}
+  .room-tab.active{
+    background:var(--gold);
+    color:var(--navy-deep);
+    border-color:var(--gold);
+    box-shadow:0 10px 22px -6px rgba(245,166,35,0.55);
+  }
+
+  .room-panels{position:relative;display:grid;}
+  .room-panel{
+    grid-row:1;grid-column:1;
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:36px;
+    align-items:center;
+    opacity:0;
+    visibility:hidden;
+    transform:translateY(10px);
+    transition:opacity .35s, transform .35s;
+    pointer-events:none;
+  }
+  .room-panel.active{opacity:1;visibility:visible;transform:translateY(0);pointer-events:auto;}
+  .room-panel-icon{
+    background:#fff;
+    border-radius:24px;
+    aspect-ratio:1/1;
+    max-width:280px;
+    margin:0 auto;
+    display:flex;align-items:center;justify-content:center;
+    font-size:88px;
+    box-shadow:0 22px 44px -16px rgba(0,0,0,0.4);
+  }
+  .room-panel-copy{color:#fff;}
+  .room-panel-copy .tag{
+    display:inline-block;
+    background:rgba(255,122,26,0.18);
+    color:var(--gold-light);
+    font-weight:700;
+    font-size:12.5px;
+    letter-spacing:.05em;
+    text-transform:uppercase;
+    padding:6px 14px;
+    border-radius:999px;
+    margin-bottom:14px;
+  }
+  .room-panel-copy h3{color:#fff;font-size:26px;margin-bottom:12px;}
+  .room-panel-copy ul{padding:0;margin:0;list-style:none;display:flex;flex-direction:column;gap:10px;}
+  .room-panel-copy li{display:flex;gap:10px;align-items:flex-start;color:#dce6f0;font-size:15px;line-height:1.5;}
+  .room-panel-copy li::before{content:"✓";color:var(--gold);font-weight:800;flex-shrink:0;margin-top:1px;}
+
+  @media (max-width:720px){
+    .room-panel{grid-template-columns:1fr;text-align:center;}
+    .room-panel-copy{text-align:left;}
+  }
+
+  /* ---------- services grid (what + where) ---------- */
+  .where-grid{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:18px;
+  }
+  .where-card{
+    background:#fff;
+    border:1px solid var(--line);
+    border-radius:20px;
+    padding:28px 20px;
+    text-align:center;
+    transition:transform .25s, box-shadow .25s, border-color .25s;
+  }
+  .where-card:hover{transform:translateY(-6px);box-shadow:var(--shadow);border-color:var(--gold);}
+  .where-card .emoji{font-size:38px;margin-bottom:14px;}
+  .where-card h3{font-size:17px;color:var(--navy);}
+  .where-card p{font-size:13.5px;color:#5a6b7c;margin-top:6px;}
+
+  /* ---------- why us ---------- */
+  .why-grid{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:24px;
+  }
+  .why-card{
+    background:#fff;
+    border-radius:22px;
+    padding:34px 28px;
+    border:1px solid var(--line);
+    position:relative;
+  }
+  .why-card .ico-circle{
+    width:56px;height:56px;border-radius:16px;
+    background:linear-gradient(145deg,var(--navy),var(--navy-deep));
+    display:flex;align-items:center;justify-content:center;
+    font-size:24px;margin-bottom:20px;
+  }
+  .why-card h3{font-size:19px;margin-bottom:10px;}
+  .why-card p{font-size:14.5px;color:#5a6b7c;line-height:1.6;}
+
+  /* ---------- process ---------- */
+  .process-list{
+    display:flex;
+    flex-direction:column;
+    gap:0;
+    max-width:760px;
+    margin:0 auto;
+  }
+  .process-step{
+    display:grid;
+    grid-template-columns:64px 1fr;
+    gap:24px;
+    padding:26px 0;
+    border-bottom:1px solid var(--line);
+  }
+  .process-step:last-child{border-bottom:none;}
+  .process-num{
+    width:52px;height:52px;border-radius:50%;
+    background:var(--ivory-2);
+    border:2px solid var(--gold);
+    color:var(--navy);
+    font-family:'Baloo 2',sans-serif;
+    font-weight:700;
+    font-size:20px;
+    display:flex;align-items:center;justify-content:center;
+  }
+  .process-copy h3{font-size:18.5px;margin-bottom:6px;}
+  .process-copy p{font-size:14.5px;color:#5a6b7c;line-height:1.6;}
+
+  /* ---------- testimonial-ish guarantee strip ---------- */
+  .guarantee-strip{
+    background:var(--green-light);
+    border:1.5px solid #b9e0c6;
+    border-radius:24px;
+    padding:36px 40px;
+    display:flex;
+    align-items:center;
+    gap:28px;
+    flex-wrap:wrap;
+  }
+  .guarantee-medal{
+    width:78px;height:78px;border-radius:50%;
+    background:linear-gradient(145deg,var(--gold-light),var(--gold));
+    display:flex;align-items:center;justify-content:center;
+    font-size:34px;
+    flex-shrink:0;
+    box-shadow:0 10px 22px -8px rgba(245,166,35,0.6);
+  }
+  .guarantee-text h3{color:var(--green);font-size:21px;margin-bottom:6px;}
+  .guarantee-text p{color:#2c5c40;font-size:15px;line-height:1.6;max-width:640px;}
+
+  /* ---------- team strip ---------- */
+  .team-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:20px;}
+  .team-card{
+    background:#fff;
+    border:1px solid var(--line);
+    border-radius:20px;
+    padding:26px;
+    display:flex;
+    align-items:center;
+    gap:18px;
+  }
+  .team-avatar{
+    width:62px;height:62px;border-radius:50%;
+    background:linear-gradient(145deg,var(--navy),var(--navy-deep));
+    color:#fff;font-weight:800;font-size:20px;
+    display:flex;align-items:center;justify-content:center;
+    flex-shrink:0;
+    font-family:'Baloo 2',sans-serif;
+  }
+  .team-info h3{font-size:17px;color:var(--navy);}
+  .team-info .role{font-size:12.5px;font-weight:700;color:var(--vermilion-dark);text-transform:uppercase;letter-spacing:.04em;margin:4px 0 8px;}
+  .team-info a.phone{
+    display:inline-flex;align-items:center;gap:7px;
+    font-weight:700;color:var(--navy);font-size:15px;
+    border-bottom:1.5px dashed var(--gold);
+  }
+
+  /* ---------- booking section ---------- */
+  .booking{
+    background:linear-gradient(155deg,var(--navy) 0%, var(--navy-deep) 100%);
+    border-radius:32px;
+    padding:0;
+    overflow:hidden;
+    display:grid;
+    grid-template-columns:1fr 1fr;
+  }
+  .booking-info{padding:56px 48px;color:#fff;position:relative;}
+  .booking-info::before{
+    content:"";
+    position:absolute;top:-40px;right:-40px;
+    width:200px;height:200px;border-radius:50%;
+    background:radial-gradient(circle, rgba(245,166,35,0.25), transparent 70%);
+  }
+  .booking-info .eyebrow{color:var(--gold-light);}
+  .booking-info h2{color:#fff;font-size:clamp(26px,3vw,34px);margin-top:14px;}
+  .booking-info p{color:#cfdcec;margin-top:14px;font-size:15.5px;line-height:1.65;max-width:420px;}
+  .booking-perks{margin-top:28px;display:flex;flex-direction:column;gap:12px;}
+  .booking-perks div{display:flex;align-items:center;gap:10px;color:#e7eef5;font-size:14.5px;font-weight:600;}
+  .booking-perks div::before{content:"✓";color:var(--gold);font-weight:800;}
+
+  .booking-form{
+    background:#fff;
+    padding:48px;
+  }
+  .booking-form h3{font-size:19px;color:var(--navy);margin-bottom:6px;}
+  .booking-form .note{font-size:13px;color:#7a8a9a;margin-bottom:22px;}
+  .form-row{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-bottom:14px;}
+  .form-field{display:flex;flex-direction:column;gap:6px;}
+  .form-field.full{grid-column:1/-1;}
+  .form-field label{font-size:13px;font-weight:700;color:var(--navy);}
+  .form-field input, .form-field select, .form-field textarea{
+    border:1.5px solid var(--line);
+    border-radius:11px;
+    padding:12px 14px;
+    font-family:'Inter',sans-serif;
+    font-size:14.5px;
+    color:var(--ink);
+    background:var(--ivory);
+    transition:border-color .2s;
+  }
+  .form-field input:focus, .form-field select:focus, .form-field textarea:focus{
+    outline:none;border-color:var(--vermilion);background:#fff;
+  }
+  .form-submit{
+    width:100%;
+    margin-top:8px;
+    background:var(--vermilion);
+    color:#fff;
+    font-weight:800;
+    font-size:16px;
+    padding:16px;
+    border-radius:12px;
+    border:none;
+    cursor:pointer;
+    display:flex;align-items:center;justify-content:center;gap:10px;
+    transition:background .2s, transform .2s;
+  }
+  .form-submit:hover{background:var(--vermilion-dark);transform:translateY(-2px);}
+  .form-success{
+    display:none;
+    background:var(--green-light);
+    border:1.5px solid #b9e0c6;
+    color:var(--green);
+    font-weight:700;
+    font-size:14px;
+    padding:14px 16px;
+    border-radius:11px;
+    margin-top:14px;
+    text-align:center;
+  }
+
+  @media (max-width:860px){
+    .booking{grid-template-columns:1fr;}
+  }
+
+  /* ---------- CTA banner ---------- */
+  .cta-banner{
+    background:var(--vermilion);
+    border-radius:28px;
+    padding:48px;
+    text-align:center;
+    position:relative;
+    overflow:hidden;
+  }
+  .cta-banner::after{
+    content:"";position:absolute;inset:0;
+    background:repeating-linear-gradient(45deg, rgba(255,255,255,0.06) 0 12px, transparent 12px 24px);
+  }
+  .cta-banner h2{color:#fff;font-size:clamp(24px,3vw,34px);position:relative;}
+  .cta-banner p{color:#ffe3cf;margin-top:10px;font-size:15.5px;position:relative;}
+  .cta-actions{display:flex;gap:14px;justify-content:center;margin-top:26px;flex-wrap:wrap;position:relative;}
+  .btn-white{
+    background:#fff;color:var(--vermilion-dark);font-weight:800;
+    padding:16px 30px;border-radius:999px;font-size:15.5px;
+    display:inline-flex;align-items:center;gap:8px;
+    transition:transform .2s;
+  }
+  .btn-white:hover{transform:translateY(-2px);}
+  .btn-ghost-white{
+    border:2px solid rgba(255,255,255,0.7);color:#fff;font-weight:800;
+    padding:14px 28px;border-radius:999px;font-size:15.5px;
+    display:inline-flex;align-items:center;gap:8px;
+    transition:background .2s;
+  }
+  .btn-ghost-white:hover{background:rgba(255,255,255,0.15);}
+
+  /* ---------- footer ---------- */
+  footer{
+    background:var(--navy-deep);
+    color:#aebfd0;
+    padding:64px 0 28px;
+  }
+  .footer-grid{
+    display:grid;
+    grid-template-columns:1.4fr 1fr 1fr 1fr;
+    gap:36px;
+    padding-bottom:40px;
+    border-bottom:1px solid rgba(255,255,255,0.1);
+  }
+  .footer-brand .brand{margin-bottom:14px;}
+  .footer-brand .brand-text{color:#fff;}
+  .footer-brand p{font-size:14px;line-height:1.7;color:#9fb1c2;max-width:280px;}
+  footer h4{color:#fff;font-size:14px;text-transform:uppercase;letter-spacing:.05em;margin-bottom:16px;}
+  footer ul{list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:10px;}
+  footer a{font-size:14px;color:#aebfd0;transition:color .2s;}
+  footer a:hover{color:var(--gold-light);}
+  .footer-bottom{
+    display:flex;justify-content:space-between;align-items:center;
+    padding-top:22px;font-size:13px;color:#7f93a6;flex-wrap:wrap;gap:10px;
+  }
+  .footer-strip-badges{display:flex;gap:18px;flex-wrap:wrap;font-size:12.5px;}
+
+  /* ---------- sticky mobile call bar ---------- */
+  .sticky-call{
+    display:none;
+    position:fixed;bottom:0;left:0;right:0;z-index:60;
+    background:var(--navy-deep);
+    padding:12px 16px;
+    box-shadow:0 -8px 24px rgba(0,0,0,0.25);
+  }
+  .sticky-call .row{display:flex;gap:10px;}
+  .sticky-call a{
+    flex:1;
+    text-align:center;
+    padding:13px;
+    border-radius:12px;
+    font-weight:800;
+    font-size:14.5px;
+    display:flex;align-items:center;justify-content:center;gap:8px;
+  }
+  .sticky-call .call1{background:var(--vermilion);color:#fff;}
+  .sticky-call .call2{background:var(--gold);color:var(--navy-deep);}
+
+  /* ---------- responsive ---------- */
+  @media (max-width:980px){
+    .hero-grid{grid-template-columns:1fr;}
+    .hero-visual{order:-1;}
+    .hero-photo-frame img{height:380px;}
+    .where-grid{grid-template-columns:repeat(2,1fr);}
+    .why-grid{grid-template-columns:1fr;}
+    .team-grid{grid-template-columns:1fr;}
+    .footer-grid{grid-template-columns:1fr 1fr;}
+  }
+  @media (max-width:760px){
+    .nav-links{display:none;}
+    .burger{display:block;}
+    .nav-cta{display:none;}
+    .sticky-call{display:block;}
+    body{padding-bottom:74px;}
+    .form-row{grid-template-columns:1fr;}
+    .booking-info{padding:40px 28px;}
+    .booking-form{padding:32px 28px;}
+    .topbar-links a span.hide-mobile{display:none;}
+    .cta-banner{padding:34px 22px;}
+  }
+  @media (max-width:560px){
+    .footer-grid{grid-template-columns:1fr;}
+    .badge-guarantee{left:8px;top:-18px;padding:10px 14px;font-size:12px;}
+    .badge-guarantee .ico{width:32px;height:32px;font-size:15px;}
+    .badge-rating{right:8px;}
+  }
+
+  /* mobile nav drawer */
+  .mobile-drawer{
+    position:fixed;inset:0;
+    background:rgba(11,37,69,0.6);
+    z-index:70;
+    display:none;
+  }
+  .mobile-drawer.open{display:block;}
+  .mobile-drawer-panel{
+    position:absolute;top:0;right:0;
+    width:78%;max-width:320px;height:100%;
+    background:#fff;
+    padding:28px 26px;
+    display:flex;flex-direction:column;gap:22px;
+  }
+  .mobile-drawer-panel a{font-weight:700;font-size:17px;color:var(--navy);}
+  .mobile-drawer-close{align-self:flex-end;background:none;border:none;font-size:26px;cursor:pointer;color:var(--navy);}
+</style>
+</head>
+<body>
+
+<!-- ============ TOP BAR ============ -->
+<div class="topbar">
+  <div class="wrap">
+    <div class="topbar-links">
+      <a href="tel:+919510204128">📞 <span>Pravesh Patel — 95102 04128</span></a>
+      <a href="tel:+917984861553">📞 <span class="hide-mobile">Mahendra Patel — 79848 61553</span></a>
+    </div>
+    <div class="topbar-badge">📍 Serving Ahmedabad, Daily</div>
+  </div>
+</div>
+
+<!-- ============ HEADER ============ -->
+<header class="site">
+  <nav class="wrap">
+    <div class="brand">
+      <div class="brand-mark">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M3 11L12 3L21 11" stroke="#F5A623" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M5 10V20H19V10" stroke="#FFD580" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          <circle cx="17" cy="6" r="1.4" fill="#F5A623"/>
+        </svg>
+      </div>
+      <div class="brand-text">Sawariya Seth <span>Cleaning Services</span></div>
+    </div>
+    <div class="nav-links">
+      <a href="#services">Services</a>
+      <a href="#process">How it works</a>
+      <a href="#why-us">Why us</a>
+      <a href="#team">Contact</a>
+    </div>
+    <button class="nav-cta" onclick="document.getElementById('book').scrollIntoView({behavior:'smooth'})">Book the Shoot →</button>
+    <button class="burger" id="burgerBtn" aria-label="Open menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+</header>
+
+<div class="mobile-drawer" id="mobileDrawer">
+  <div class="mobile-drawer-panel">
+    <button class="mobile-drawer-close" id="drawerClose" aria-label="Close menu">×</button>
+    <a href="#services">Services</a>
+    <a href="#process">How it works</a>
+    <a href="#why-us">Why us</a>
+    <a href="#team">Contact</a>
+    <button class="nav-cta" style="width:100%;" onclick="document.getElementById('book').scrollIntoView({behavior:'smooth'});document.getElementById('mobileDrawer').classList.remove('open')">Book the Shoot →</button>
+  </div>
+</div>
+
+<!-- ============ HERO ============ -->
+<section class="hero">
+  <div class="garland-row"></div>
+  <div class="wrap">
+    <div class="hero-grid">
+      <div class="hero-copy">
+        <span class="eyebrow">100% Satisfaction Guarantee</span>
+        <h1>Forget your home cleaning <em>tension</em>, completely.</h1>
+        <p class="sub">Sawariya Seth Cleaning Services brings experienced, professional staff to your door for a deep clean that hits every corner — at a price that fits your budget, not the other way around.</p>
+        <div class="hero-actions">
+          <button class="btn-primary" onclick="document.getElementById('book').scrollIntoView({behavior:'smooth'})">
+            <span class="pulse-dot"></span> Book the Shoot
+          </button>
+          <a class="btn-secondary" href="tel:+919510204128">📞 Call Now</a>
+        </div>
+        <div class="hero-trust">
+          <div class="trust-item"><span class="ico">⭐</span> 5-Star Rated Team</div>
+          <div class="trust-item"><span class="ico">💰</span> Budget-Friendly Pricing</div>
+          <div class="trust-item"><span class="ico">📍</span> Based in Ahmedabad</div>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="hero-photo-frame">
+          <img src="poster.jpg" alt="Sawariya Seth cleaning professional deep-cleaning a sofa with a vacuum cleaner">
+        </div>
+        <div class="badge-float badge-guarantee">
+          <div class="ico">🏅</div>
+          <div>100% Satisfaction<br>Guaranteed</div>
+        </div>
+        <div class="badge-float badge-rating">★★★★★ <span class="num">Trusted locally</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ MARQUEE ============ -->
+<div class="marquee-strip">
+  <div class="marquee-track">
+    <span>Ekdam Chakachak Cleaning</span>
+    <span>Budget Friendly Pricing</span>
+    <span>100% Satisfaction Guarantee</span>
+    <span>Experienced Professional Staff</span>
+    <span>Serving All of Ahmedabad</span>
+    <span>Ekdam Chakachak Cleaning</span>
+    <span>Budget Friendly Pricing</span>
+    <span>100% Satisfaction Guarantee</span>
+    <span>Experienced Professional Staff</span>
+    <span>Serving All of Ahmedabad</span>
+  </div>
+</div>
+
+<!-- ============ DEEP CLEAN SIGNATURE SECTION ============ -->
+<section id="services">
+  <div class="wrap">
+    <div class="deep-clean">
+      <div class="dc-head">
+        <span class="eyebrow">House, office, flat, or bungalow — all of it</span>
+        <h2>One by one, every corner gets cleaned.</h2>
+        <p>Tap a room below to see exactly what our deep-clean covers there.</p>
+      </div>
+
+      <div class="room-tabs" id="roomTabs">
+        <button class="room-tab active" data-room="room">🛏️ Room</button>
+        <button class="room-tab" data-room="hall">🛋️ Hall</button>
+        <button class="room-tab" data-room="dining">🍽️ Dining Area</button>
+        <button class="room-tab" data-room="windows">🪟 Windows &amp; Doors</button>
+        <button class="room-tab" data-room="kitchen">🍳 Kitchen</button>
+        <button class="room-tab" data-room="toilet">🚿 Toilet &amp; Bathroom</button>
+      </div>
+
+      <div class="room-panels">
+        <div class="room-panel active" data-room="room">
+          <div class="room-panel-icon">🛏️</div>
+          <div class="room-panel-copy">
+            <span class="tag">Bedroom</span>
+            <h3>Room deep clean</h3>
+            <ul>
+              <li>Dusting and wipe-down of all surfaces, shelves, and fixtures</li>
+              <li>Mattress, bed frame, and under-bed vacuuming</li>
+              <li>Cupboard exteriors, switchboards, and corners cleaned</li>
+              <li>Floor scrub and polish, skirting boards included</li>
+            </ul>
+          </div>
+        </div>
+        <div class="room-panel" data-room="hall">
+          <div class="room-panel-icon">🛋️</div>
+          <div class="room-panel-copy">
+            <span class="tag">Living area</span>
+            <h3>Hall &amp; sofa deep clean</h3>
+            <ul>
+              <li>Sofa and upholstery vacuum + stain treatment</li>
+              <li>Showcases, TV units, and decor items dusted carefully</li>
+              <li>Ceiling fans, light fixtures, and cobweb removal</li>
+              <li>Full floor mopping and high-traffic spot cleaning</li>
+            </ul>
+          </div>
+        </div>
+        <div class="room-panel" data-room="dining">
+          <div class="room-panel-icon">🍽️</div>
+          <div class="room-panel-copy">
+            <span class="tag">Dining area</span>
+            <h3>Dining area deep clean</h3>
+            <ul>
+              <li>Table and chair wipe-down, including legs and undersides</li>
+              <li>Crockery unit exteriors and dining wall cleaning</li>
+              <li>Floor degreasing near serving areas</li>
+              <li>Light fixtures and fan blades dusted</li>
+            </ul>
+          </div>
+        </div>
+        <div class="room-panel" data-room="windows">
+          <div class="room-panel-icon">🪟</div>
+          <div class="room-panel-copy">
+            <span class="tag">Bari-Baranan</span>
+            <h3>Windows &amp; doors deep clean</h3>
+            <ul>
+              <li>Window glass, frames, and grilles scrubbed and shined</li>
+              <li>Door panels, handles, and hinges wiped and sanitised</li>
+              <li>Window tracks cleared of accumulated dust and grit</li>
+              <li>Curtain rods and ledges dusted top to bottom</li>
+            </ul>
+          </div>
+        </div>
+        <div class="room-panel" data-room="kitchen">
+          <div class="room-panel-icon">🍳</div>
+          <div class="room-panel-copy">
+            <span class="tag">Kitchen</span>
+            <h3>Kitchen deep clean</h3>
+            <ul>
+              <li>Countertop, sink, and backsplash degreasing</li>
+              <li>Cabinet exteriors and handles cleaned thoroughly</li>
+              <li>Stove-top and chimney exterior grease removal</li>
+              <li>Floor scrub focused on oil and food stains</li>
+            </ul>
+          </div>
+        </div>
+        <div class="room-panel" data-room="toilet">
+          <div class="room-panel-icon">🚿</div>
+          <div class="room-panel-copy">
+            <span class="tag">Toilet &amp; bathroom</span>
+            <h3>Toilet &amp; bathroom deep clean</h3>
+            <ul>
+              <li>Tile and grout scrubbing to remove stains and mildew</li>
+              <li>Toilet, basin, and fittings disinfected thoroughly</li>
+              <li>Mirror, shelves, and fixtures polished to shine</li>
+              <li>Drain areas cleared and deodorised</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ WHERE WE CLEAN ============ -->
+<section class="section-tinted">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow">Wherever you live or work</span>
+      <h2>One team, every kind of space.</h2>
+      <p>Ghar hoy, office hoy, flat hoy, ke pachi bungalow — we deep clean all of it, end to end.</p>
+    </div>
+    <div class="where-grid">
+      <div class="where-card">
+        <div class="emoji">🏠</div>
+        <h3>Homes</h3>
+        <p>Full-house deep cleaning, room by room.</p>
+      </div>
+      <div class="where-card">
+        <div class="emoji">🏢</div>
+        <h3>Offices</h3>
+        <p>Workspace cleaning with zero disruption.</p>
+      </div>
+      <div class="where-card">
+        <div class="emoji">🏘️</div>
+        <h3>Flats</h3>
+        <p>Move-in, move-out, or routine flat cleaning.</p>
+      </div>
+      <div class="where-card">
+        <div class="emoji">🏡</div>
+        <h3>Bungalows</h3>
+        <p>Larger spaces, fully covered, no corner missed.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ WHY US ============ -->
+<section id="why-us">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow">Why families choose us</span>
+      <h2>Professional cleaning, without the stress.</h2>
+    </div>
+    <div class="why-grid">
+      <div class="why-card">
+        <div class="ico-circle">🏅</div>
+        <h3>100% Satisfaction Guarantee</h3>
+        <p>We don't leave until every room meets our deep-clean standard — and yours.</p>
+      </div>
+      <div class="why-card">
+        <div class="ico-circle">👷</div>
+        <h3>Experienced, Professional Staff</h3>
+        <p>Trained team members who treat your home with care, every single visit.</p>
+      </div>
+      <div class="why-card">
+        <div class="ico-circle">💰</div>
+        <h3>Budget-Friendly Pricing</h3>
+        <p>Best-in-class cleaning service that's built to fit your budget, not strain it.</p>
+      </div>
+      <div class="why-card">
+        <div class="ico-circle">⚡</div>
+        <h3>Ekdam Chakachak Results</h3>
+        <p>Fast, thorough, and spotless — your space transformed in one visit.</p>
+      </div>
+      <div class="why-card">
+        <div class="ico-circle">📍</div>
+        <h3>Local to Ahmedabad</h3>
+        <p>A team that knows the city and shows up reliably, on schedule.</p>
+      </div>
+      <div class="why-card">
+        <div class="ico-circle">🧽</div>
+        <h3>Equipped for Deep Clean</h3>
+        <p>Professional-grade vacuums and cleaning supplies for every job.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PROCESS ============ -->
+<section id="process" class="section-tinted">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow">No tension, just call</span>
+      <h2>Just a quick call away from a clean home.</h2>
+    </div>
+    <div class="process-list">
+      <div class="process-step">
+        <div class="process-num">1</div>
+        <div class="process-copy">
+          <h3>Call or book the shoot</h3>
+          <p>Reach out on the numbers below, or fill the booking form and we'll call you back.</p>
+        </div>
+      </div>
+      <div class="process-step">
+        <div class="process-num">2</div>
+        <div class="process-copy">
+          <h3>We understand your space</h3>
+          <p>Tell us the rooms, size, and what matters most — we tailor the visit to your home.</p>
+        </div>
+      </div>
+      <div class="process-step">
+        <div class="process-num">3</div>
+        <div class="process-copy">
+          <h3>Our team arrives, ready to work</h3>
+          <p>Professional staff, full equipment, and a budget-friendly quote agreed upfront.</p>
+        </div>
+      </div>
+      <div class="process-step">
+        <div class="process-num">4</div>
+        <div class="process-copy">
+          <h3>Enjoy your "ekdam chakachak" home</h3>
+          <p>Every corner, deep cleaned — backed by our 100% satisfaction guarantee.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="guarantee-strip" style="margin-top:48px;">
+      <div class="guarantee-medal">🏅</div>
+      <div class="guarantee-text">
+        <h3>100% Satisfaction Guarantee</h3>
+        <p>If a corner doesn't meet our standard, we make it right — that's our promise on every single booking.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ TEAM / CONTACT ============ -->
+<section id="team">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow">Talk to us directly</span>
+      <h2>Call now — our team is ready today.</h2>
+      <p>No long forms, no waiting. Just call, and the Sawariya Seth team will be at your door shortly.</p>
+    </div>
+    <div class="team-grid">
+      <div class="team-card">
+        <div class="team-avatar">PP</div>
+        <div class="team-info">
+          <h3>Pravesh Patel</h3>
+          <div class="role">Cleaning Services</div>
+          <a class="phone" href="tel:+919510204128">📞 95102 04128</a>
+        </div>
+      </div>
+      <div class="team-card">
+        <div class="team-avatar">MP</div>
+        <div class="team-info">
+          <h3>Mahendra Patel</h3>
+          <div class="role">Cleaning Services</div>
+          <a class="phone" href="tel:+917984861553">📞 79848 61553</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ BOOKING ============ -->
+<section id="book" class="section-tinted">
+  <div class="wrap">
+    <div class="booking">
+      <div class="booking-info">
+        <span class="eyebrow">Let's clean with Sawariya Seth</span>
+        <h2>Book your cleaning shoot.</h2>
+        <p>Share a few details and our team will call you back to confirm timing and a budget-friendly quote — usually within the hour.</p>
+        <div class="booking-perks">
+          <div>Same-day callback during business hours</div>
+          <div>Free, no-obligation quote</div>
+          <div>Professional staff, fully equipped</div>
+          <div>100% satisfaction guarantee on every visit</div>
+        </div>
+      </div>
+      <div class="booking-form">
+        <h3>Tell us about your space</h3>
+        <p class="note">Fields marked * are required. We'll call you back to confirm.</p>
+        <form id="bookingForm">
+          <div class="form-row">
+            <div class="form-field">
+              <label for="fname">Full name *</label>
+              <input type="text" id="fname" required placeholder="Your name">
+            </div>
+            <div class="form-field">
+              <label for="fphone">Phone number *</label>
+              <input type="tel" id="fphone" required placeholder="98765 43210">
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-field">
+              <label for="fspace">Space type *</label>
+              <select id="fspace" required>
+                <option value="" disabled selected>Choose one</option>
+                <option>Home</option>
+                <option>Flat</option>
+                <option>Office</option>
+                <option>Bungalow</option>
+              </select>
+            </div>
+            <div class="form-field">
+              <label for="fdate">Preferred date</label>
+              <input type="date" id="fdate">
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-field full">
+              <label for="farea">Area / locality in Ahmedabad</label>
+              <input type="text" id="farea" placeholder="e.g. Bodakdev, Satellite, Maninagar">
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-field full">
+              <label for="fnotes">Anything specific we should know?</label>
+              <textarea id="fnotes" rows="3" placeholder="Number of rooms, kitchen/bathroom focus, etc."></textarea>
+            </div>
+          </div>
+          <button type="submit" class="form-submit">📅 Book the Shoot</button>
+          <div class="form-success" id="formSuccess">Thanks! Your request is ready — tap below to send it on WhatsApp or call us directly.</div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CTA BANNER ============ -->
+<section>
+  <div class="wrap">
+    <div class="cta-banner">
+      <h2>Don't think twice — call us right now.</h2>
+      <p>To vicharso nahi... call karo, ane thoda j samay ma Sawariya Seth Cleaning Services ni team hajar rehshe tamara ghare.</p>
+      <div class="cta-actions">
+        <a class="btn-white" href="tel:+919510204128">📞 Call Pravesh Patel</a>
+        <a class="btn-ghost-white" href="tel:+917984861553">📞 Call Mahendra Patel</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer>
+  <div class="wrap">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div class="brand">
+          <div class="brand-mark">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M3 11L12 3L21 11" stroke="#F5A623" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M5 10V20H19V10" stroke="#FFD580" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <div class="brand-text">Sawariya Seth <span>Cleaning Services</span></div>
+        </div>
+        <p>Professional, budget-friendly deep cleaning for homes, offices, flats, and bungalows across Ahmedabad. Let's clean with Sawariya Seth.</p>
+      </div>
+      <div>
+        <h4>Services</h4>
+        <ul>
+          <li><a href="#services">Room &amp; hall cleaning</a></li>
+          <li><a href="#services">Kitchen deep clean</a></li>
+          <li><a href="#services">Toilet &amp; bathroom</a></li>
+          <li><a href="#services">Windows &amp; doors</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="#why-us">Why us</a></li>
+          <li><a href="#process">How it works</a></li>
+          <li><a href="#team">Contact</a></li>
+          <li><a href="#book">Book the shoot</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Reach us</h4>
+        <ul>
+          <li><a href="tel:+919510204128">📞 Pravesh — 95102 04128</a></li>
+          <li><a href="tel:+917984861553">📞 Mahendra — 79848 61553</a></li>
+          <li><a href="#">📍 Ahmedabad, Gujarat</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div>© <span id="year"></span> Sawariya Seth Cleaning Services. All rights reserved.</div>
+      <div class="footer-strip-badges">
+        <span>⏱ Same-day service</span>
+        <span>🛡 Trustworthy team</span>
+        <span>📍 Ahmedabad</span>
+        <span>⭐ Affordable &amp; clean</span>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- ============ STICKY MOBILE CALL BAR ============ -->
+<div class="sticky-call">
+  <div class="row">
+    <a class="call1" href="tel:+919510204128">📞 Call Pravesh</a>
+    <a class="call2" href="tel:+917984861553">📞 Call Mahendra</a>
+  </div>
+</div>
+
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+
+  // mobile drawer
+  const burgerBtn = document.getElementById('burgerBtn');
+  const drawer = document.getElementById('mobileDrawer');
+  const drawerClose = document.getElementById('drawerClose');
+  burgerBtn.addEventListener('click', () => drawer.classList.add('open'));
+  drawerClose.addEventListener('click', () => drawer.classList.remove('open'));
+  drawer.addEventListener('click', (e) => { if(e.target === drawer) drawer.classList.remove('open'); });
+  drawer.querySelectorAll('a').forEach(a => a.addEventListener('click', () => drawer.classList.remove('open')));
+
+  // room tabs
+  const tabs = document.querySelectorAll('.room-tab');
+  const panels = document.querySelectorAll('.room-panel');
+  tabs.forEach(tab => {
+    tab.addEventListener('click', () => {
+      const room = tab.dataset.room;
+      tabs.forEach(t => t.classList.toggle('active', t === tab));
+      panels.forEach(p => p.classList.toggle('active', p.dataset.room === room));
+    });
+  });
+
+  // booking form -> WhatsApp handoff
+  const form = document.getElementById('bookingForm');
+  const success = document.getElementById('formSuccess');
+  form.addEventListener('submit', function(e){
+    e.preventDefault();
+    const name = document.getElementById('fname').value.trim();
+    const phone = document.getElementById('fphone').value.trim();
+    const space = document.getElementById('fspace').value;
+    const date = document.getElementById('fdate').value;
+    const area = document.getElementById('farea').value.trim();
+    const notes = document.getElementById('fnotes').value.trim();
+
+    const msg = `Hi Sawariya Seth Cleaning Services, I'd like to book a cleaning shoot.%0A%0AName: ${encodeURIComponent(name)}%0APhone: ${encodeURIComponent(phone)}%0ASpace type: ${encodeURIComponent(space)}%0APreferred date: ${encodeURIComponent(date || 'Flexible')}%0AArea: ${encodeURIComponent(area || '-')}%0ANotes: ${encodeURIComponent(notes || '-')}`;
+
+    success.style.display = 'block';
+    success.innerHTML = `Thanks${name ? ', ' + name.split(' ')[0] : ''}! Tap to send this on WhatsApp: <br><a href="https://wa.me/919510204128?text=${msg}" target="_blank" style="color:#1B7A4D;text-decoration:underline;font-weight:800;">Send on WhatsApp →</a> &nbsp;or&nbsp; <a href="tel:+919510204128" style="color:#1B7A4D;text-decoration:underline;font-weight:800;">Call Pravesh now</a>`;
+    success.scrollIntoView({behavior:'smooth', block:'center'});
+  });
+</script>
+
+</body>
+</html>
